@@ -5,7 +5,7 @@
 <card class="eat">
   
   
-      <div class="col-lg-6 devour">
+      <div class="col-lg-6">
           {{#each burgers}}
           {{#if devoured}}
           {{> burgers/burger-block devoured=false}}
@@ -20,7 +20,7 @@
 <card class="save">
   
   
-      <div class="col-lg-6 hungry">
+      <div class="col-lg-6">
           {{#each burgers}}
           {{#unless devoured}}
           {{> burgers/burger-block devoured=true}}
