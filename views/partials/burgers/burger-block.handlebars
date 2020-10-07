@@ -1,11 +1,10 @@
-  
 <div class="row">
 	<div class="col-sm-6">
 		<div class="card" style="width: 18rem">
 				{{burgerName}}
 
 				<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-					{{#if devoured}}HUNGRY?{{else}}DEVOUR TIME!{{/if}}
+					{{#if devoured}}HUNGRY?{{else}}DEVOUR!{{/if}}
 				</button>
 
 				<button class="delete-burger" data-id="{{this.id}}">DELETE</button>
