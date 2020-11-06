@@ -13,9 +13,11 @@
 - [Questions](#questions)
 
 ## User Story
+```
 AS A burger lover
 I WANT to add, devour, save my burgers
 SO THAT I can keep track of burgers I love
+```
 
 ## Business Context
 A burger lover would benefit from being able to keep track of burgers they have eaten, burgers they want to eat, and burgers they have created. 
